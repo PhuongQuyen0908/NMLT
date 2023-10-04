@@ -9,7 +9,7 @@ int main()
 	Nhap(x1, y1);
 	Nhap(x2, y2);
 	float d = KhoangCach(x1, y1, x2, y2);
-	cout << "Test";
+	cout << d;
 	return 0;
 }
 void Nhap(float& hd , float& td)
